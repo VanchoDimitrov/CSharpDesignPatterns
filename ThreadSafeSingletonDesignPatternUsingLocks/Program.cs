@@ -34,6 +34,7 @@ namespace ThreadSafeSingletonDesignPatternUsingLocks
             professorName.GetName("Ana Dimitrova");
         }
 
+
         public sealed class Singleton
         {
             public static int counter = 0;

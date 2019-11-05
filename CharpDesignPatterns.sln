@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonSealedDesignPatern", "SingletonDesignPatern\SingletonSealedDesignPatern.csproj", "{8E81B637-4446-4227-A887-96680B4D56D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonNonSealedDerivedPattern", "SingletonNonSealedDerivedPattern\SingletonNonSealedDerivedPattern.csproj", "{794D87E4-5839-4F45-B6AD-4296F3CE35C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonThreadSafeSingletonDesignPattern", "NonThreadSafeSingletonDesignPattern\NonThreadSafeSingletonDesignPattern.csproj", "{9A05204C-A87B-4698-B8C3-01870240C255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeSingletonDesignPatternUsingLocks", "ThreadSafeSingletonDesignPatternUsingLocks\ThreadSafeSingletonDesignPatternUsingLocks.csproj", "{1247FCCA-166E-4DA6-82FF-272DF9DEB655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonLazyOrEagerLoadingDesignPattern", "NonLazyOrEagerLoadingDesignPattern\NonLazyOrEagerLoadingDesignPattern.csproj", "{5C30BA88-7611-4513-9752-282EFD4B5B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyOrDeferredLoadingDesignPattern", "LazyOrDeferredLoadingDesignPattern\LazyOrDeferredLoadingDesignPattern.csproj", "{465D1EB7-5131-4189-A5C0-924A0180924C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E81B637-4446-4227-A887-96680B4D56D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E81B637-4446-4227-A887-96680B4D56D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E81B637-4446-4227-A887-96680B4D56D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E81B637-4446-4227-A887-96680B4D56D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794D87E4-5839-4F45-B6AD-4296F3CE35C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794D87E4-5839-4F45-B6AD-4296F3CE35C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794D87E4-5839-4F45-B6AD-4296F3CE35C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794D87E4-5839-4F45-B6AD-4296F3CE35C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A05204C-A87B-4698-B8C3-01870240C255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A05204C-A87B-4698-B8C3-01870240C255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A05204C-A87B-4698-B8C3-01870240C255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A05204C-A87B-4698-B8C3-01870240C255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1247FCCA-166E-4DA6-82FF-272DF9DEB655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1247FCCA-166E-4DA6-82FF-272DF9DEB655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1247FCCA-166E-4DA6-82FF-272DF9DEB655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1247FCCA-166E-4DA6-82FF-272DF9DEB655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C30BA88-7611-4513-9752-282EFD4B5B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C30BA88-7611-4513-9752-282EFD4B5B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C30BA88-7611-4513-9752-282EFD4B5B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C30BA88-7611-4513-9752-282EFD4B5B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465D1EB7-5131-4189-A5C0-924A0180924C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465D1EB7-5131-4189-A5C0-924A0180924C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465D1EB7-5131-4189-A5C0-924A0180924C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465D1EB7-5131-4189-A5C0-924A0180924C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C594285A-88E3-4946-95E5-67829BAC9692}
+	EndGlobalSection
+EndGlobal
